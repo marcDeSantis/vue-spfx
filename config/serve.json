@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://wwtdev.sharepoint.com/sites/TopBarDevArea",
+      "customActions": {
+        "9cf012d7-03fb-48f8-9145-cb1982194728": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://wwtdev.sharepoint.com/sites/TopBarDevArea",
+      "customActions": {
+        "9cf012d7-03fb-48f8-9145-cb1982194728": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

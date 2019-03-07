@@ -49,7 +49,7 @@ const themedStyleLoader = require.resolve('@microsoft/loader-load-themed-styles'
                     transpileOnly: true
                 }
             }, {
-                resourceQuery: /vue&type=style.*&lang=sass/, // scss
+                resourceQuery: /vue&type=style.*&lang=scss/, // scss
                 use: [{
                     loader: themedStyleLoader,
                     options: {

@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="scss">
 $myColor: #333333;
 
 .header {

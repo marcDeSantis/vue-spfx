@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div :class="$style.header">
     Hello {{ message }}!!
   </div>
 </template>
@@ -14,11 +14,11 @@ export default {
 }
 </script>
 
-<style lang="scss">
-$myColor: #333333;
+<style lang="scss" module>
+@import './shared-styles/variables';
 
 .header {
-  color: $myColor;
+  color: $favoriteColor;
   font-size: 24pt;
 }
 </style>
